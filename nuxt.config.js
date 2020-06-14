@@ -47,7 +47,15 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    // Simple usage
+    '@nuxtjs/bootstrap-vue',
+    
+    // With options
+    ['@nuxtjs/bootstrap-vue', { css: false }],
+  ]
+
+
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
